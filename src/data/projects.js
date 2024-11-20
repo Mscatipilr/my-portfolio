@@ -2,16 +2,16 @@ const projects = [
     {
         title: 'Order Management System',
         description: 'A full-stack system for managing orders and products.',
-        image: 'data:image/png;base64,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',
+        image: 'src/assets/images/OMS.png',
         repo: 'https://github.com/Mscatipilr/OrderManagementSystem',
         live: null,
     },
     {
         title: 'Health Tracker',
         description: 'A health monitoring app with MongoDB and Docker integration.',
-        image: 'src/assets/images/TealApple.png',
+        image: 'src/assets/images/WELL BEING.png',
         repo: 'https://github.com/bsbowen/HealthTracker',
-        live: 'https://healthtracker.example.com',
+        live: null,
     },
     {
         title: 'Weather App',
@@ -20,6 +20,110 @@ const projects = [
         repo: 'https://github.com/Mscatipilr/weatherApp',
         live: null,
     },
+    /*
+    {
+
+        title: "Currency Converter",
+        description: "An app to convert currency values using live exchange rates.",
+        repo: "https://github.com/Mscatipilr/CurrencyConverter",
+    },
+    {
+        title: "Ecommerce App",
+        description: "A collaborative ecommerce platform built with full-stack technologies.",
+        repo: "https://github.com/justusjeter/Ecommerce",
+    },
+    {
+        title: "File Manager App",
+        description: "A file manager for performing operations like copy, move, and delete.",
+        repo: "https://github.com/Mscatipilr/FileManagerApp",
+    },
+    {
+        title: "Learn Terraform",
+        description: "Scripts and examples for learning Infrastructure as Code with Terraform.",
+        repo: "https://github.com/Mscatipilr/learn-terraform",
+    },
+    {
+        title: "Restaurant Management System",
+        description: "A restaurant management system with inventory and reservation features.",
+        repo: "https://github.com/TylerJac/RMS",
+    },
+    {
+        title: "JUnit Project",
+        description: "A project for practicing unit testing in Java with JUnit.",
+        repo: "https://github.com/Mscatipilr/junitProject",
+    },
+    {
+        title: "Spring Security API",
+        description: "A secure API built using Spring Boot and Spring Security.",
+        repo: "https://github.com/Mscatipilr/SpringSecurityAPI",
+    },
+    {
+        title: "IO Assignment",
+        description: "A Java project to practice Input/Output operations.",
+        repo: "https://github.com/Mscatipilr/IOAssignment",
+    },
+    {
+        title: "Bank Accounts",
+        description: "A program to manage and simulate bank account operations.",
+        repo: "https://github.com/Mscatipilr/BankAccounts",
+    },
+    {
+        title: "TDD Project",
+        description: "A Java project practicing Test-Driven Development principles.",
+        repo: "https://github.com/Mscatipilr/TDDProject",
+    },
+    {
+        title: "Algorithms",
+        description: "A collection of algorithm implementations in Java.",
+        repo: "https://github.com/Mscatipilr/Algorithms",
+    },
+    {
+        title: "Text Processing Lambda",
+        description: "A Java project for text processing using lambda expressions.",
+        repo: "https://github.com/Mscatipilr/TextProcessingLambda",
+    },
+    {
+        title: "BlackJack Project",
+        description: "A Java implementation of the BlackJack card game.",
+        repo: "https://github.com/Mscatipilr/BlackJackProject",
+    },
+    {
+        title: "RESTful Book Management",
+        description: "A RESTful application for managing books using Spring Boot.",
+        repo: "https://github.com/Mscatipilr/RestfulBookManagement",
+    },
+    {
+        title: "Customer Management System",
+        description: "A backend system for managing customers using Spring Boot.",
+        repo: "https://github.com/Mscatipilr/CustomerManagementSystem",
+    },
+    {
+        title: "TIC-TAC-TOE",
+        description: "A simple implementation of the classic Tic-Tac-Toe game.",
+        repo: "https://github.com/Mscatipilr/TIC-TAC-TOE",
+    },
+    {
+        title: "Health Wellness Tracker",
+        description: "An application to track health and wellness metrics.",
+        repo: "https://github.com/bsbowen/HealthWellnessTracker",
+    },
+    {
+        title: "AWS Elastic Beanstalk Express Sample",
+        description: "A sample application deployed using AWS Elastic Beanstalk.",
+        repo: "https://github.com/Mscatipilr/aws-elastic-beanstalk-express-js-sample",
+    },
+    {
+        title: "Building Infrastructure",
+        description: "A project focused on Infrastructure as Code principles.",
+        repo: "https://github.com/Mscatipilr/Building-Infrastructure",
+    },
+    {
+        title: "Regex Assignment",
+        description: "An assignment using regular expressions in JavaScript.",
+        repo: "https://github.com/Stiegler-EdTech-CTAC-Cohort-6/regex-assignment-Mscatipilr",
+    },
+     */
+    // Add remaining projects similarly
 ];
 
 export default projects;

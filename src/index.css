@@ -1,4 +1,6 @@
 :root {
+
+
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -25,10 +27,13 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 100vh; /* Ensures the body fills the full viewport height */
+  background: linear-gradient(to bottom left, #4c5e81, #f0f0f0); /* Adjust colors */
 }
+
 
 h1 {
   font-size: 3.2em;

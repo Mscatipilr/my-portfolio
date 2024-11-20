@@ -1,10 +1,14 @@
 #root {
   max-width: 1280px;
+  height: 100%; /* Let it inherit height from body */
   margin: 0 auto;
-  padding: 2rem;
+  display: flex; /* Enable flexbox for centering */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
   text-align: center;
+  padding: 2rem;
 }
-
 .logo {
   height: 6em;
   padding: 1.5em;
