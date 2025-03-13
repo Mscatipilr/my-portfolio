@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 import projects from '../data/projects';
 import ProjectCard from '../components/ProjectCard.jsx';
+import SlideIn from 'C:/Users/joann/CTAC/Extended/my-portfolio/src/components/SlideIn/SlideIn.jsx';
 
 const Projects = () => (
+    <SlideIn>
     <Container>
         <h1>My Projects</h1>
         <Grid>
@@ -11,6 +13,7 @@ const Projects = () => (
             ))}
         </Grid>
     </Container>
+    </SlideIn>
 );
 
 const Container = styled.div`
@@ -19,7 +22,7 @@ const Container = styled.div`
 
 const Grid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); // displays in a row on larger screens and in columns on small screens
   gap: 1rem;
 `;
 

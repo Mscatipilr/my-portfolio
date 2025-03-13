@@ -4,6 +4,7 @@ import Footer from './components/Footer.jsx';
 import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Projects from './pages/Projects.jsx';
+import SlideIn from './components/SlideIn/SlideIn.jsx';
 
 const App = () => (
     <Router>
@@ -13,7 +14,7 @@ const App = () => (
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
         </Routes>
-        <Footer />
+        <SlideIn><Footer /></SlideIn>
     </Router>
 );
 

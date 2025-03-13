@@ -25,10 +25,12 @@ const Nav = styled.nav`
     color: white;
     z-index: 1000; /* Ensures the navbar appears above other content */
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds a subtle shadow for depth */
+    
 
     ul {
         display: flex;
         list-style: none;
+        
         margin: 0; /* Removes default margin for the list */
         padding-right: 70px; /* Removes default padding for the list */
 
@@ -41,7 +43,7 @@ const Nav = styled.nav`
                 transition: color 0.3s;
 
                 &:hover {
-                    color: #61dafb; /* Changes color on hover */
+                    color:rgb(120, 169, 254); /* Changes color on hover */
                 }
             }
         }

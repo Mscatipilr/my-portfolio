@@ -16,7 +16,7 @@ const projects = [
     {
         title: 'Weather App',
         description: 'A simple weather application using OpenWeather API.',
-        image: 'https://media.istockphoto.com/id/2034093552/vector/set-weather-icon-website-or-mobile-app-ui-paper-cut.jpg?s=612x612&w=0&k=20&c=vCJn07BZdU_KhvGGeG8hzyFZfyd4ehmMXPgTKxA4hAQ=',
+        image: 'src/assets/images/weather.jpg',
         repo: 'https://github.com/Mscatipilr/weatherApp',
         live: null,
     },
