@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import SlideIn from '../components/SlideIn/SlideIn.jsx';
-import { CircleGrid } from 'react-awesome-shapes/dist/shapes/circlegrid';
 
 const About = () => (
     
