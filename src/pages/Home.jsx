@@ -13,7 +13,7 @@ const Home = () => (
             <h2>a Full-Stack Web Developer</h2>
             <p>passionate about collaborating with others to create meaningful, impactful business solutions.</p>
         </Container>
-        <Image src="src/assets/images/Joann Ellis-Headshots-fotor.png" alt="Photograph of Joann"/>
+        <Image src={`${import.meta.env.BASE_URL}src/assets/images/Joann Ellis-Headshots-fotor.png`} alt="Photograph of Joann"/>
     </Section>
   </SlideIn>
 );
